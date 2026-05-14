@@ -23,7 +23,7 @@ type UserSumary = Pick<User, 'id' | 'name' | 'email' | 'role'>
 
 async function getUsersMockData(): Promise <UserSumary[]> {
     try {
-        const response = await axios.get<User[]>('https://6a05d15aaa826ca75c0aa767.mockapi.io/api/desafio1/users')
+        const response = await axios.get<User[]>('https://6a05d15aaa826ca75c0aa767.mockapi.io/api/desafios/users')
         const users = response.data;
 
         const activeManengers = users

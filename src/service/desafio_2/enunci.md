@@ -1,0 +1,1 @@
+Generics (<T>) são fundamentais no TypeScript porque permitem criar componentes, funções e interfaces que funcionam com qualquer tipo de dado, garantindo a tipagem forte sem perder a flexibilidade. Isso é muito comum ao criar serviços HTTP genéricos ou funções de utilidade.
